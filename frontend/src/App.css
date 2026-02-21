@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8FAFC;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    background-color: #1E293B;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #CBD5E1;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: linear-gradient(to right, #2563EB, #7C3AED);
+    color: white;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.kpi-card {
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background: white;
+}
+
+.ai-panel {
+    background: linear-gradient(to right, #2563EB, #7C3AED);
+    color: white;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.card-box {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.output-box {
+    max-height: 400px;
+    overflow-y: auto;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.loading {
+    font-weight: 500;
+    color: #555;
+}
